@@ -1,0 +1,7 @@
+parm TXS-vert8.prmtop
+trajin Relaxation/TXS-vert8_relaxed.rst7
+trajout TXS-vert8_relaxed.pdb PDB
+
+center :1-789
+image familiar
+go

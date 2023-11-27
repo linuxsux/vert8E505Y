@@ -1,0 +1,5 @@
+source leaprc.gaff
+VRT=loadmol2 ../ligand_files/VRT.mol2
+loadamberparams ../ligand_files/VRT.frcmod
+saveoff VRT ../ligand_files/VRT.lib
+quit

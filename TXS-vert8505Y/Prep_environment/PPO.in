@@ -1,0 +1,5 @@
+source leaprc.gaff
+PPO=loadmol2 ../ligand_files/PPO.mol2
+loadamberparams ../ligand_files/PPO.frcmod
+saveoff PPO ../ligand_files/PPO.lib
+quit
